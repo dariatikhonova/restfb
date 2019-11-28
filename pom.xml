@@ -350,6 +350,7 @@
             <artifactId>maven-javadoc-plugin</artifactId>
             <version>3.1.1</version>
             <configuration>
+	      <show>public</show>
               <linksource>true</linksource>
               <doclint>none</doclint>
               <source>8</source>
@@ -386,6 +387,7 @@
             <artifactId>maven-javadoc-plugin</artifactId>
             <version>3.1.1</version>
             <configuration>
+              <show>public</show>
               <linksource>true</linksource>
               <stylesheetfile>${project.basedir}/misc/javadoc/stylesheet.css</stylesheetfile>
               <links>
